@@ -12,7 +12,13 @@ namespace CoreTest.Controllers
         {
             return View();
         }
+
         public IActionResult Test()
+        {
+            return View();
+        }
+
+        public IActionResult test3()
         {
             return View();
         }
