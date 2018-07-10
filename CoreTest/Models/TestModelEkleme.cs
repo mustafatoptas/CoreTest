@@ -7,5 +7,8 @@ namespace CoreTest.Models
 {
     public class TestModelEkleme
     {
+        public int id { get; set; }
+        public string Name { get; set; }
+        public string SurName { get; set; }
     }
 }
